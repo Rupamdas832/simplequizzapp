@@ -1,0 +1,38 @@
+{
+    "a": {
+        "id": "1",
+        "question": "What is the capital of India",
+        "a": "Mumbai",
+        "b": "Delhi",
+        "c": "Banglore",
+        "d": "Kolkata",
+        "answer": "Delhi"
+    },
+    "b": {
+        "id": "2",
+        "question": "What is the capital of Jharkhand",
+        "a": "Mumbai",
+        "b": "Delhi",
+        "c": "Ranchi",
+        "d": "Kolkata",
+        "answer": "Ranchi"
+    },
+    "c": {
+        "id": "3",
+        "question": "What is the capital of West Bengal",
+        "a": "Mumbai",
+        "b": "Delhi",
+        "c": "Banglore",
+        "d": "Kolkata",
+        "answer": "Kolkata"
+    },
+    "d": {
+        "id": "4",
+        "question": "What is the capital of Bihar",
+        "a": "Patna",
+        "b": "Delhi",
+        "c": "Banglore",
+        "d": "Kolkata",
+        "answer": "Patna"
+    }
+}

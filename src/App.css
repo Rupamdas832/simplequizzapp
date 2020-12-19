@@ -1,0 +1,89 @@
+body {
+    background-color: #586776;
+}
+.counter {
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 250px;
+    padding: 10px;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.checkmark {
+    text-size-adjust: 300px;
+}
+.cardCol h5{
+    font-size: 2rem;
+}
+.cardBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cardButton{
+    font-size: 1.5rem;
+}
+@media only screen and (max-width: 450px){
+    .container{
+        padding: none !important;
+        margin: none !important;
+        width: 100vw !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+.cardRow{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cardCol{
+    width: 90%;
+    
+}
+.cardCol h5{
+    font-size: 1rem;
+}
+.cardBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cardButton{
+    font-size: 1rem;
+}
+.cardFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.footerBtn{
+    font-size: 0.8rem;
+}
+.resultRow{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.resultRow h1{
+    font-size: 1.1rem;
+    color: rgb(0, 102, 255) !important;
+    font-weight: bolder;
+}
+.resultRow h2{
+    font-size: 1rem;
+}
+.resultRow h5{
+    font-size: 1rem;
+}
+.resultMessage{
+    font-size: 1.5rem;
+}
+}
